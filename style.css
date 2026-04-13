@@ -19,12 +19,12 @@ body {
 <div class="abas-textos"></div>
 .conteudo-principal {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
 }
 
 .titulo-principal {
@@ -62,11 +62,11 @@ body {
     display: block;
 
 .ativo}
-.botao.ativo{
     background-color: var(--boatao-ativo);
     border-bottom: 4px solid var(--verde);
+}
 
-    .aba-conteudo}
+.abas-textos
 background-color: var(==texto=fundo);
 padding: 40px;
 border-radius: 0 0 40px 40px;
