@@ -71,14 +71,32 @@ background-color: var(==texto=fundo);
 padding: 40px;
 border-radius: 0 0 40px 40px;
 }
+
 .aba-conteudo.ativo{
 display:block;
 }
 
-.aba-conteudo{}
+.aba-conteudo{
 display: none;
 }
 
+.aba-conteudo-titulo-principal{
+font-size: 28px;
+}
+.aba-conteudo-titulo-secundario {
+    text-aling: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+.contador{
+font-size: 20px;
+text-aling: center;
+}
+
+@media screen and (min-width: 768px){
+.botoes {
+    display: flex;
+}
 
 .aba-conteudo-titulo-secundario{
 front-size: 28px;
